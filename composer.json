@@ -1,0 +1,39 @@
+{
+  "name": "tank/flarum-polyfill",
+  "description": "Polyfills for flarum",
+  "keywords": [
+    "flarum",
+    "polyfill"
+  ],
+  "type": "flarum-extension",
+  "license": "AGPL-3.0-or-later",
+  "require": {
+    "flarum/core": "^0.1.0-beta.8",
+    "cbschuld/browser.php": "^1.9"
+  },
+  "authors": [
+    {
+      "name": "Matthew Kilgore",
+      "email": "matthew@kilgore.dev",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tank\\Polyfill\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Tank Polyfill",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
