@@ -1,6 +1,6 @@
 # Tank Polyfill
 
-![License](https://img.shields.io/badge/license-AGPL-3.0-or-later-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/tank/flarum-polyfill.svg)](https://packagist.org/packages/tank/flarum-polyfill)
+![License](https://img.shields.io/packagist/l/tank/flarum-polyfill) [![Latest Stable Version](https://img.shields.io/packagist/v/tank/flarum-polyfill.svg)](https://packagist.org/packages/tank/flarum-polyfill)
 
 A [Flarum](http://flarum.org) extension. Polyfills for flarum
 
