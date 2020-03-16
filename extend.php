@@ -20,8 +20,8 @@ return [
         ->content(function (Document $document, Request $request) {
             $browser = new \Browser();
             if (
-                ($browser->getBrowser() == \Browser::BROWSER_FIREFOX && $browser->getVersion() <= 70) ||
-                ($browser->getBrowser() == \Browser::BROWSER_CHROME && $browser->getBrowser() <= 77) ||
+                ($browser->getBrowser() == \Browser::BROWSER_FIREFOX && $browser->getVersion() >= 70) ||
+                ($browser->getBrowser() == \Browser::BROWSER_CHROME && $browser->getBrowser() >= 77) ||
                 ($browser->getBrowser() == \Browser::PLATFORM_CHROME_OS)
 
             ) {
